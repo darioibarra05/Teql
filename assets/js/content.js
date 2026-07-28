@@ -6,7 +6,7 @@
 
 const BRAND = {
   /* ── Cambia el nombre aquí y se actualiza en todo el sitio ── */
-  name: "LINDEROS",
+  name: "LINDERO",
 
   /* ── Datos de contacto ── */
   email: "hola@tumarca.mx",
