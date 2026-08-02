@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linaje 59 · Tequila 100% de agave · Valles de Amatitán</title>
+<meta name="description" content="Tequila blanco 100% de agave. La misma tierra desde 1959, en los Valles de Amatitán, Jalisco.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Linaje 59 · Tequila 100% de agave">
+<meta property="og:description" content="La misma tierra desde 1959.">
+<meta property="og:image" content="assets/img/og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ═══ Verificación de edad ═══ -->
+<div class="gate" id="gate" hidden>
+  <div class="gate__card">
+    <svg class="mark" viewBox="0 0 60 40" aria-hidden="true"><g stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round"><path d="M30 36 L6 14M30 36 L15 6M30 36 L24 2M30 36 L36 2M30 36 L45 6M30 36 L54 14M30 36 L2 26M30 36 L58 26"/></g></svg>
+    <p class="gate__q" data-i18n="gate.q"></p>
+    <div class="gate__actions">
+      <button class="btn btn--solid" id="gateYes" data-i18n="gate.yes"></button>
+      <a class="btn" href="https://www.gob.mx/salud" data-i18n="gate.no"></a>
+    </div>
+    <p class="gate__legal" data-i18n="legal.abuse"></p>
+  </div>
+</div>
+
+<!-- ═══ Navegación ═══ -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top"><span class="brandname" data-brand></span></a>
+  <nav class="nav__links">
+    <a href="#tierra" data-i18n="nav.land"></a>
+    <a href="#predio" data-i18n="nav.estate"></a>
+    <a href="#proceso" data-i18n="nav.process"></a>
+    <a href="#botella" data-i18n="nav.bottle"></a>
+    <a href="#casa" data-i18n="nav.house"></a>
+    <a href="#contacto" class="nav__cta" data-i18n="nav.contact"></a>
+  </nav>
+  <button class="lang" id="lang" aria-label="Cambiar idioma"><span id="langLabel">EN</span></button>
+</header>
+
+<main id="top">
+
+  <!-- ═══ Portada ═══ -->
+  <section class="hero">
+    <figure class="hero__media">
+      <div class="ph ph--hero" data-ph="Foto: plantío de agave a contraluz · horizontal · 2400px"></div>
+      <img src="assets/img/hero.jpg" alt="" onerror="this.remove()">
+    </figure>
+    <div class="hero__inner">
+      <p class="eyebrow" data-i18n="hero.eyebrow"></p>
+      <h1 class="hero__title"><span class="brandname" data-hero-word></span></h1>
+      <p class="hero__num" data-hero-num></p>
+      <div class="rule rule--gold"></div>
+      <p class="hero__tag" data-i18n="hero.tagline"></p>
+    </div>
+    <a class="hero__scroll" href="#tierra"><span data-i18n="hero.scroll"></span></a>
+  </section>
+
+  <!-- ═══ La tierra ═══ -->
+  <section class="sect sect--paper" id="tierra">
+    <div class="wrap grid-2">
+      <div class="reveal">
+        <p class="eyebrow" data-i18n="land.eyebrow"></p>
+        <h2 data-i18n="land.title"></h2>
+        <p class="lead" data-i18n="land.lead"></p>
+        <p data-i18n="land.body"></p>
+        <dl class="specs">
+          <div><dt data-i18n="land.s1t"></dt><dd data-i18n="land.s1d"></dd></div>
+          <div><dt data-i18n="land.s2t"></dt><dd data-i18n="land.s2d"></dd></div>
+          <div><dt data-i18n="land.s3t"></dt><dd data-i18n="land.s3d"></dd></div>
+          <div><dt data-i18n="land.s4t"></dt><dd data-i18n="land.s4d"></dd></div>
+        </dl>
+      </div>
+      <figure class="frame reveal">
+        <div class="ph ph--tall" data-ph="Foto: jimador trabajando o piñas apiladas · vertical"></div>
+        <img src="assets/img/tierra.jpg" alt="" onerror="this.remove()">
+      </figure>
+    </div>
+  </section>
+
+  <!-- ═══ El predio ═══ -->
+  <section class="sect sect--cream" id="predio">
+    <div class="wrap">
+      <div class="head-center reveal">
+        <p class="eyebrow" data-i18n="est.eyebrow"></p>
+        <h2 data-i18n="est.title"></h2>
+        <p class="lead" data-i18n="est.lead"></p>
+      </div>
+      <div class="gal reveal">
+        <figure class="w2"><img src="assets/img/predio/volcan.jpg" alt="" loading="lazy"></figure>
+        <figure class="h2"><img src="assets/img/predio/surcos.jpg" alt="" loading="lazy"></figure>
+        <figure class="h2"><img src="assets/img/predio/caballo.jpg" alt="" loading="lazy"></figure>
+        <figure class="w2"><img src="assets/img/predio/camino.jpg" alt="" loading="lazy"></figure>
+        <figure class="w2"><img src="assets/img/predio/mesa.jpg" alt="" loading="lazy"></figure>
+        <figure class="w2"><img src="assets/img/predio/ladera.jpg" alt="" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ El proceso ═══ -->
+  <section class="sect sect--dark" id="proceso">
+    <div class="wrap">
+      <div class="head-center reveal">
+        <p class="eyebrow" data-i18n="proc.eyebrow"></p>
+        <h2 data-i18n="proc.title"></h2>
+        <p class="lead" data-i18n="proc.lead"></p>
+      </div>
+      <ol class="commit" id="commitList"></ol>
+      <p class="note reveal" data-i18n="proc.note"></p>
+    </div>
+  </section>
+
+  <!-- ═══ La botella ═══ -->
+  <section class="sect sect--paper" id="botella">
+    <div class="wrap grid-2 grid-2--flip">
+      <figure class="frame frame--bottle reveal">
+        <div class="ph ph--bottle" data-ph="Foto: botella sobre fondo neutro · vertical"></div>
+        <img src="assets/img/botella.jpg" alt="" onerror="this.remove()">
+      </figure>
+      <div class="reveal">
+        <p class="eyebrow" data-i18n="bot.eyebrow"></p>
+        <h2 data-i18n="bot.title"></h2>
+        <p class="lead" data-i18n="bot.lead"></p>
+        <table class="tech"><tbody id="techBody"></tbody></table>
+        <p class="tasting" data-i18n="bot.tasting"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ La casa ═══ -->
+  <section class="sect sect--cream" id="casa">
+    <div class="wrap head-center reveal">
+      <p class="eyebrow" data-i18n="house.eyebrow"></p>
+      <h2 data-i18n="house.title"></h2>
+      <figure class="portrait">
+        <div class="ph ph--portrait" data-ph="Foto: retrato del fundador en el rancho"></div>
+        <img src="assets/img/fundador.jpg" alt="" onerror="this.remove()">
+      </figure>
+      <blockquote class="quote"><p data-i18n="house.quote"></p></blockquote>
+      <p data-i18n="house.body"></p>
+    </div>
+  </section>
+
+  <!-- ═══ Contacto ═══ -->
+  <section class="sect sect--dark" id="contacto">
+    <div class="wrap head-center reveal">
+      <p class="eyebrow" data-i18n="cta.eyebrow"></p>
+      <h2 data-i18n="cta.title"></h2>
+      <p class="lead" data-i18n="cta.lead"></p>
+      <div class="cta-row">
+        <a class="btn btn--solid" id="mailBtn" href="#" data-i18n="cta.mail"></a>
+        <a class="btn" id="waBtn" href="#" data-i18n="cta.wa"></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ═══ Pie ═══ -->
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <div>
+      <p class="foot__brand brandname" data-brand></p>
+      <p class="foot__sm" data-i18n="foot.origin"></p>
+    </div>
+    <div class="foot__sm">
+      <p><span data-i18n="foot.nom"></span> <b id="fNom"></b></p>
+      <p><span data-i18n="foot.crt"></span> <b id="fCrt"></b></p>
+    </div>
+    <div class="foot__sm">
+      <p id="fMail"></p>
+      <p id="fPhone"></p>
+    </div>
+  </div>
+  <div class="wrap foot__legal">
+    <p data-i18n="legal.abuse"></p>
+    <p data-i18n="legal.age"></p>
+    <p class="foot__copy"><span data-i18n="foot.rights"></span> · <span class="brandname" data-brand></span> <span id="year"></span></p>
+  </div>
+</footer>
+
+<script src="assets/js/content.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
