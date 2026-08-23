@@ -11,7 +11,7 @@ const BRAND = {
   name: "LINAJE 59",     // menú, pie de página y título de la pestaña
   heroWord: "LINAJE",    // primera línea de la portada
   heroNum: "59",         // el número grande en dorado, debajo
-  founded: "1959",       // el año que da origen al nombre
+  founded: "2026",       // el año que da origen al nombre
 
   /* ── Contacto ── */
   email: "hola@linaje59.mx",
@@ -43,21 +43,21 @@ const I18N = {
     "nav.contact": "Contacto",
 
     "hero.eyebrow": "Tequila 100% de agave · Valles de Amatitán",
-    "hero.tagline": "La misma tierra desde 1959.",
+    "hero.tagline": "Conocimiento de generacion en generacion",
     "hero.scroll": "Conoce la casa",
 
     "land.eyebrow": "El origen",
     "land.title": "Un número, no un adorno",
-    "land.lead": "1959. El año en que esta familia sembró su primera parcela.",
+    "land.lead": "59, un numero que pesa",
     "land.body": "Tres generaciones después seguimos trabajando esa misma tierra en los Valles de Amatitán. No compramos agave: lo sembramos. El suelo volcánico de esta zona da una planta más mineral y menos dulce que la de los Altos, y eso se prueba en el vaso. Siete años desde el hijuelo hasta la jima. No hay forma de apurarlo, y no lo intentamos.",
     "land.s1t": "Origen",
     "land.s1d": "1959",
     "land.s2t": "Región",
     "land.s2d": "Valles de Amatitán, Jalisco",
     "land.s3t": "Suelo",
-    "land.s3d": "Volcánico oscuro",
+    "land.s3d": "Rojizo",
     "land.s4t": "Edad del agave",
-    "land.s4d": "7 años o más",
+    "land.s4d": "6 años o más",
 
     "est.eyebrow": "El predio",
     "est.title": "Aquí crece",
@@ -76,7 +76,7 @@ const I18N = {
     "house.eyebrow": "Quién lo hace",
     "house.title": "Tercera generación",
     "house.quote": "No vendo algo que yo no me tomaría.",
-    "house.body": "Soy agavero de familia y soy ingeniero en mecatrónica. Lo primero me enseñó que una planta tarda siete años y que no se puede apurar. Lo segundo me enseñó a medir, calibrar y documentar en vez de adivinar. Este tequila es lo que pasa cuando esas dos cosas trabajan juntas sobre la tierra que sembró mi abuelo.",
+    "house.body": "Soy agavero de familia. Lo primero me enseñó que una planta tarda siete años y que no se puede apurar. Lo segundo me enseñó a medir, calibrar y documentar en vez de adivinar. Este tequila es lo que pasa cuando esas dos cosas trabajan juntas sobre la tierra que sembró mi abuelo.",
 
     "cta.eyebrow": "Para el canal",
     "cta.title": "Restaurantes, hoteles y barras",
@@ -84,7 +84,7 @@ const I18N = {
     "cta.mail": "Escríbenos",
     "cta.wa": "WhatsApp",
 
-    "foot.origin": "Hecho en México · Jalisco",
+    "foot.origin": "Hecho en México Amatitán· Jalisco",
     "foot.nom": "NOM",
     "foot.crt": "CRT",
     "foot.rights": "Todos los derechos reservados",
@@ -100,7 +100,7 @@ const I18N = {
       ["Molienda de tahona",      "Piedra volcánica sobre el agave cocido, como siempre se hizo."],
       ["Fermentación con fibra",  "Tinas abiertas, bagazo dentro, levadura nativa. De 72 a 120 horas."],
       ["Doble destilación",       "Alambique de cobre. Los cortes los define el maestro, lote por lote."],
-      ["Agave de 7+ años",        "Mínimo 24 °Brix. Todo de parcela propia, con registro."],
+      ["Agave de 6+ años",        "Mínimo 30 °Brix. Todo de parcela propia, con registro."],
       ["Sin filtración en frío",  "Quita la turbidez, pero también el cuerpo. Preferimos el cuerpo."]
     ],
 
@@ -129,21 +129,21 @@ const I18N = {
     "nav.contact": "Contact",
 
     "hero.eyebrow": "100% agave tequila · Valles de Amatitán",
-    "hero.tagline": "The same land since 1959.",
-    "hero.scroll": "Meet the house",
+    "hero.tagline": "knowledge from generation to generation .",
+    "hero.scroll": "Meet the house", 
 
     "land.eyebrow": "Origin",
     "land.title": "A number, not an ornament",
-    "land.lead": "1959. The year this family planted its first parcel.",
+    "land.lead": "59 a year that weighs",
     "land.body": "Three generations on, we still work that same land in the Valles de Amatitán. We don't buy agave — we grow it. The dark volcanic soil here yields a more mineral, less sugary plant than the highlands, and you taste it. Seven years from pup to harvest. There is no way to rush it, and we don't try.",
     "land.s1t": "Founded",
-    "land.s1d": "1959",
+    "land.s1d": "2026",
     "land.s2t": "Region",
     "land.s2d": "Valles de Amatitán, Jalisco",
     "land.s3t": "Soil",
-    "land.s3d": "Dark volcanic",
+    "land.s3d": "Reddish dirt",
     "land.s4t": "Agave age",
-    "land.s4d": "7 years or more",
+    "land.s4d": "6 years or more",
 
     "est.eyebrow": "The estate",
     "est.title": "Where it grows",
@@ -162,7 +162,7 @@ const I18N = {
     "house.eyebrow": "Who makes it",
     "house.title": "Third generation",
     "house.quote": "I don't sell what I wouldn't drink myself.",
-    "house.body": "I'm a third-generation agave farmer and a mechatronics engineer. The first taught me a plant takes seven years and cannot be hurried. The second taught me to measure, calibrate and document instead of guess. This tequila is what happens when those two work together on the land my grandfather planted.",
+    "house.body": "I'm a third-generation agave farmer. The first taught me a plant takes seven years and cannot be hurried. The second taught me to measure, calibrate and document instead of guess. This tequila is what happens when those two work together on the land my grandfather planted.",
 
     "cta.eyebrow": "For the trade",
     "cta.title": "Restaurants, hotels and bars",
@@ -170,7 +170,7 @@ const I18N = {
     "cta.mail": "Get in touch",
     "cta.wa": "WhatsApp",
 
-    "foot.origin": "Made in Mexico · Jalisco",
+    "foot.origin": "Made in Mexico Amatitán· Jalisco",
     "foot.nom": "NOM",
     "foot.crt": "CRT",
     "foot.rights": "All rights reserved",
@@ -186,7 +186,7 @@ const I18N = {
       ["Tahona milling",         "Volcanic stone over cooked agave, the way it was always done."],
       ["Fermented on fiber",     "Open tanks, bagasse in, native yeast. 72 to 120 hours."],
       ["Double distilled",       "Copper pot still. Cuts called by the master, batch by batch."],
-      ["Agave 7+ years",         "24 °Brix minimum. All estate-grown, all logged."],
+      ["Agave 6+ years",         "30 °Brix minimum. All estate-grown, all logged."],
       ["No chill filtration",    "It removes haze, but it removes body too. We keep the body."]
     ],
 
