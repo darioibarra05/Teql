@@ -23,6 +23,8 @@
     });
 
     $$("[data-brand]").forEach(el => (el.textContent = BRAND.name));
+    $$("[data-hero-word]").forEach(el => (el.textContent = BRAND.heroWord || BRAND.name));
+    $$("[data-hero-num]").forEach(el => (el.textContent = BRAND.heroNum || ""));
 
     /* Compromisos */
     $("#commitList").innerHTML = t.commitments.map((c, i) => `

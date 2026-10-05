@@ -96,7 +96,11 @@ p+p{margin-top:1.1rem}
 .hero::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(22,19,15,.72),rgba(22,19,15,.5) 45%,rgba(22,19,15,.88))}
 .hero__inner{position:relative;z-index:2;padding:8rem var(--pad) 6rem;max-width:900px}
 .hero__inner .eyebrow{color:var(--gold-lt)}
-.hero__title{font-size:clamp(3.4rem,13vw,9rem);letter-spacing:.1em;font-weight:300}
+.hero__title{font-size:clamp(2.7rem,10vw,7rem);letter-spacing:.18em;font-weight:300}
+.hero__num{
+  font-family:var(--serif);font-weight:300;color:var(--gold-lt);
+  font-size:clamp(4rem,15vw,10.5rem);line-height:.85;margin-top:.15em;
+}
 .hero__tag{font-family:var(--serif);font-size:clamp(1.2rem,2.6vw,1.9rem);color:var(--cream-deep);font-style:italic}
 .hero__scroll{
   position:absolute;bottom:2.6rem;left:50%;transform:translateX(-50%);z-index:2;

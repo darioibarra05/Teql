@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://darioibarra05.github.io/Teql/</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://darioibarra05.github.io/Teql/assets/img/hero.jpg</image:loc>
+      <image:title>Campos de agave en los Valles de Amatitán, Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://darioibarra05.github.io/Teql/assets/img/botella.jpg</image:loc>
+      <image:title>Don Darío Tequila Blanco 750 ml</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://darioibarra05.github.io/Teql/assets/img/predio/volcan.jpg</image:loc>
+      <image:title>El Volcán de Tequila visto desde el predio</image:title>
+    </image:image>
+  </url>
+</urlset>

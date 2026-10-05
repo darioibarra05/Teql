@@ -30,7 +30,7 @@ Teql/
 
 ```js
 const BRAND = {
-  name: "LINDEROS",   // ← cámbialo y se actualiza en todo el sitio
+  name: "Don Dario",   // ← cámbialo y se actualiza en todo el sitio
 ```
 
 Se refleja en la portada, la navegación, el pie, el título de la pestaña y el asunto del correo de contacto. **Un solo lugar.**
@@ -38,7 +38,7 @@ Se refleja en la portada, la navegación, el pie, el título de la pestaña y el
 ### 2. Contacto y datos regulatorios
 
 ```js
-  email: "hola@tumarca.mx",
+  email: "ibarradario725@gmail.com",
   phone: "+52 33 0000 0000",
   whatsapp: "523300000000",    // sin +, sin espacios
   nom: "NOM-0000-CRT",         // te lo da tu maquiladora

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://darioibarra05.github.io/Teql/sitemap.xml
